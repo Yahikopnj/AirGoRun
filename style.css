@@ -87,12 +87,16 @@ h1{
     margin-left: calc(50 * var(--res));
     font-weight: lighter;
 }
+#div-lefta{
+    width: 60%;
+}
 #div-righta{
     background-color: #2F243A;
     width: 100%;
 }
 #secta{
     display: flex;
+    width: 100%;
 }
 #h2a{
     text-align: center;
@@ -104,7 +108,7 @@ h1{
 }
 #prea{
     text-align: center;
-    font-size: calc(50 * var(--res));
+    font-size: calc(35 * var(--res));
     font-family: "roboto";
     color:#fff;
     margin-top: calc(250 * var(--res));
@@ -112,6 +116,7 @@ h1{
 }
 #watcha{
     height: 100%;
+    width: 100%;
 }
 
 #sectb{
@@ -126,6 +131,7 @@ h1{
 }
 #div-leftb{
     width: 100%;
+
 }
 
 #h2b{
@@ -137,8 +143,38 @@ h1{
         margin-top: calc(250 * var(--res));
         font-weight: lighter;
 
+
 }
 #preb{
+    text-align: center;
+    font-size: calc(35 * var(--res));
+    font-family: "roboto";
+    color:#000;
+    margin-top: calc(200 * var(--res));
+    margin-bottom: 0;
+
+}
+#img-size{
+width: 60%;
+height: 100%;
+}
+
+
+#sectc{
+display: flex;
+margin-top: calc(250 * var(--res));
+}
+
+#h2c{
+    text-align: center;
+    font-family: "lato";
+    font-size: calc(80 * var(--res));
+    color:#000;
+    margin-top: calc(250 * var(--res));
+    font-weight: lighter;
+}
+
+#prec{
     text-align: center;
     font-size: calc(35 * var(--res));
     font-family: "roboto";
