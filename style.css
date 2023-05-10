@@ -155,7 +155,7 @@ h1{
 
 }
 #img-size{
-width: 60%;
+width: 70%;
 height: 100%;
 }
 
@@ -184,8 +184,11 @@ margin-top: calc(250 * var(--res));
     margin-bottom: 0;
 }
 #div-leftc{
-width: 60%;
+width: 70%;
 }
-#div-rightc{
+#rightc{
+    width: 100%;
+}
+#img-sizec{
     width: 100%;
 }
