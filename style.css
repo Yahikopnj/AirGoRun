@@ -108,7 +108,7 @@ h1{
 }
 #prea{
     text-align: center;
-    font-size: calc(35 * var(--res));
+    font-size: calc(25 * var(--res));
     font-family: "roboto";
     color:#fff;
     margin-top: calc(250 * var(--res));
@@ -147,7 +147,7 @@ h1{
 }
 #preb{
     text-align: center;
-    font-size: calc(35 * var(--res));
+    font-size: calc(25 * var(--res));
     font-family: "roboto";
     color:#000;
     margin-top: calc(200 * var(--res));
@@ -163,12 +163,13 @@ height: 100%;
 #sectc{
 display: flex;
 margin-top: calc(250 * var(--res));
+
 }
 
 #h2c{
     text-align: center;
     font-family: "lato";
-    font-size: calc(80 * var(--res));
+    font-size: calc(70 * var(--res));
     color:#000;
     margin-top: calc(250 * var(--res));
     font-weight: lighter;
@@ -176,9 +177,15 @@ margin-top: calc(250 * var(--res));
 
 #prec{
     text-align: center;
-    font-size: calc(35 * var(--res));
+    font-size: calc(25 * var(--res));
     font-family: "roboto";
     color:#000;
     margin-top: calc(200 * var(--res));
     margin-bottom: 0;
+}
+#div-leftc{
+width: 60%;
+}
+#div-rightc{
+    width: 100%;
 }
