@@ -171,7 +171,7 @@ margin-top: calc(250 * var(--res));
     font-family: "lato";
     font-size: calc(70 * var(--res));
     color:#000;
-    margin-top: calc(250 * var(--res));
+    /* margin-top: calc(250 * var(--res)); */
     font-weight: lighter;
 }
 
