@@ -113,3 +113,36 @@ h1{
 #watcha{
     height: 100%;
 }
+
+#sectb{
+    display: flex;
+    width: 100%;
+    margin-top: calc(200 * var(--res));
+}
+#div-rightb{
+    display: flex;
+    justify-content: end ;
+    width: 100%;
+}
+#div-leftb{
+    width: 100%;
+}
+
+#h2b{
+    
+        text-align: center;
+        font-family: "lato";
+        font-size: calc(80 * var(--res));
+        color:#000;
+        margin-top: calc(250 * var(--res));
+        font-weight: lighter;
+
+}
+#preb{
+    text-align: center;
+    font-size: calc(35 * var(--res));
+    font-family: "roboto";
+    color:#000;
+    margin-top: calc(200 * var(--res));
+    margin-bottom: 0;
+}
