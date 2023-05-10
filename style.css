@@ -85,4 +85,31 @@ h1{
     font-size: calc(80 * var(--res));
     color: #fff;
     margin-left: calc(50 * var(--res));
+    font-weight: lighter;
+}
+#div-righta{
+    background-color: #2F243A;
+    width: 100%;
+}
+#secta{
+    display: flex;
+}
+#h2a{
+    text-align: center;
+    font-family: "lato";
+    font-size: calc(70 * var(--res));
+    color:#fff;
+    margin-top: calc(250 * var(--res));
+    font-weight: lighter;
+}
+#prea{
+    text-align: center;
+    font-size: calc(50 * var(--res));
+    font-family: "roboto";
+    color:#fff;
+    margin-top: calc(250 * var(--res));
+    margin-bottom: 0;
+}
+#watcha{
+    height: 100%;
 }
