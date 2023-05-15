@@ -113,10 +113,10 @@ h1{
 }
 #prea{
     text-align: center;
-    font-size: calc(25 * var(--res));
+    font-size: calc(35 * var(--res));
     font-family: "roboto";
     color:#fff;
-    margin-top: calc(250 * var(--res));
+    margin-top: calc(150 * var(--res));
     margin-bottom: 0;
 }
 #watcha{
@@ -152,10 +152,10 @@ h1{
 }
 #preb{
     text-align: center;
-    font-size: calc(25 * var(--res));
+    font-size: calc(35 * var(--res));
     font-family: "roboto";
     color:#000;
-    margin-top: calc(200 * var(--res));
+    margin-top: calc(150 * var(--res));
     margin-bottom: 0;
 
 }
@@ -182,10 +182,10 @@ margin-top: calc(250 * var(--res));
 
 #prec{
     text-align: center;
-    font-size: calc(25 * var(--res));
+    font-size: calc(35 * var(--res));
     font-family: "roboto";
     color:#000;
-    margin-top: calc(200 * var(--res));
+    margin-top: calc(150 * var(--res));
     margin-bottom: 0;
 }
 #div-leftc{

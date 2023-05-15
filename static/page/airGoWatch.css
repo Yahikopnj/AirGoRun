@@ -113,9 +113,8 @@ h1{
     color: #fff;
     font-family: "roboto";
     text-align: center;
-    font-size: calc(30* var(--res));
-margin-top: calc(130*var(--res));
-margin-bottom: calc(100*var(--res));
+    font-size: calc(25* var(--res));
+
 }
 
 /*
