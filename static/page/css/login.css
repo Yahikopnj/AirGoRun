@@ -77,78 +77,79 @@ border-bottom-style: solid;
 border-color: #fff;
 }
 input{
-border-radius: calc(80*var(--res));
-border-color: #9070A3;
-border-width: 2px;
-width: calc(400 * var(--res));
-color:#9070A3;
-padding: 8px;
-font-family: "roboto";
-height: calc(25*var(--res));
-
-}
-label{
-    margin-top: 30px;
-    font-size: calc(20*var(--res));
-}
-#lab-check{
-    margin: 0;
-    position: relative;
-    right: calc(180*var(--res));
-}
-#sub{
-    height: calc(40*var(--res));
-    border-radius: 0.3rem;
-    color: #fff;
-    background-color: #9070A3;
-    border-color: #fff;
-    margin-bottom: 50px;
-    font-size: calc(20*var(--res));
-}
-#form-register{
-text-align: center;
-width: 100%;
-}
-#div-check{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.divForm{
-display: flex;
-flex-direction: column;
-color: #9070A3;
-font-family: "roboto";
-margin: 20px;
-
-}
-#divForm2{
+    border-radius: calc(80*var(--res));
+    border-color: #9070A3;
+    border-width: 2px;
+    width: calc(400 * var(--res));
+    color:#9070A3;
+    padding: 8px;
+    font-family: "roboto";
+    height: calc(20*var(--res));
+    
+    }
+    label{
+        margin-top: 30px;
+        font-size: calc(25*var(--res));
+    }
+    #lab-check{
+        margin: 0;
+        position: relative;
+        right: calc(180*var(--res));
+    }
+    #sub{
+        height: calc(40*var(--res));
+        border-radius: 0.3rem;
+        color: #fff;
+        background-color: #9070A3;
+        border-color: #fff;
+        margin-bottom: 50px;
+        font-size: calc(20*var(--res));
+    }
+    #form-register{
+    text-align: center;
+    width: 100%;
+    }
+    #div-check{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .divForm{
     display: flex;
     flex-direction: column;
     color: #9070A3;
     font-family: "roboto";
     margin: 20px;
-    text-align: center;
+    
     }
-#form-cont{
-display: flex;
-align-items: center;
-flex-direction: column;
-
-}
-#cont{
-    border-radius: 0.5rem;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #9070A3;
-    margin-top: 10rem;
+    #divForm2{
+        display: flex;
+        flex-direction: column;
+        color: #9070A3;
+        font-family: "roboto";
+        margin: 20px;
+        text-align: center;
+    }
+    #form-cont{
     display: flex;
-align-items: center;
-flex-direction: column;
-}
+    align-items: center;
+    flex-direction: column;
+    
+    }
+    #cont{
+        border-radius: 0.5rem;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #9070A3;
+        margin-top: 10rem;
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    }
+
 h1{
-    padding-top: 60px;
-        font-family: "lato";
-        font-size: calc(30*var(--res));
+    font-family: "lato";
+    font-size: calc(30*var(--res));
 }
 /*Start footer*/
 
