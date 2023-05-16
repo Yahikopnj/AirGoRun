@@ -51,18 +51,25 @@ body{
     width: 10%;
     display: flex;
     align-items: center; 
+
 }
 #icn-user{
-    margin:calc(5 * var(--res))
+    margin:calc(5 * var(--res));
+    height: calc(10*var(--res));
+}
+#icn-panier{
+    height: calc(10*var(--res));
 }
 #search{
     border-radius: 2.5rem;
     border-color: #000;
     padding: calc(10 * var(--res));
-    width: calc(200 * var(--res));
+    width: calc(300 * var(--res));
+    height: 35px;
 }
 input::placeholder{
     color: #9070A3;
+    font-size: calc(20*var(--res));
 }
 
 .btn-plain:hover{
@@ -70,17 +77,40 @@ border-bottom-style: solid;
 border-color: #fff;
 }
 input{
-border-radius: 50px;
+border-radius: calc(80*var(--res));
 border-color: #9070A3;
-width: 200px;
+border-width: 2px;
+width: calc(400 * var(--res));
 color:#9070A3;
-padding: 5px;
+padding: 8px;
 font-family: "roboto";
+height: calc(20*var(--res));
+
+}
+label{
+    margin-top: 30px;
+    font-size: calc(25*var(--res));
+}
+#lab-check{
+    margin: 0;
+    position: relative;
+    right: calc(180*var(--res));
+}
+#sub{
+    height: calc(40*var(--res));
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #9070A3;
+    border-color: #fff;
+    margin-bottom: 50px;
 }
 #form-register{
 text-align: center;
 width: 100%;
-
+}
+#div-check{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .divForm{
 display: flex;
@@ -88,9 +118,21 @@ flex-direction: column;
 color: #9070A3;
 font-family: "roboto";
 margin: 20px;
+
 }
 #form-cont{
 display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+#cont{
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #9070A3;
+    margin-top: 10rem;
+    display: flex;
 align-items: center;
 flex-direction: column;
 }
