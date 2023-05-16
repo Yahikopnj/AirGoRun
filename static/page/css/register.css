@@ -85,7 +85,7 @@ color:#9070A3;
 padding: 8px;
 font-family: "roboto";
 height: calc(25*var(--res));
-
+font-size: calc(20*var(--res));
 }
 label{
     margin-top: 30px;

@@ -85,7 +85,7 @@ input{
     padding: 8px;
     font-family: "roboto";
     height: calc(20*var(--res));
-    
+    font-size: calc(20*var(--res));
     }
     label{
         margin-top: 30px;
