@@ -1,11 +1,11 @@
 @font-face {
     font-family: "roboto";
-    src: url("./static/font/Roboto/Roboto-Regular.ttf")format(truetype);
+    src: url("../../font/Roboto/Roboto-Regular.ttf")format(truetype);
 }
 
 @font-face {
     font-family: "lato";
-    src: url("./static/font/Lato/Lato-Light.ttf")format(truetype);
+    src: url("../../font/Lato/Lato-Light.ttf")format(truetype);
 }
 html{
     --res: calc(0.01 * 10vmin)
@@ -71,7 +71,7 @@ border-color: #fff;
 }
 
 #img-header{
-    background-image: url(../image/header_montre.png);
+    background-image: url(../../image/header_montre.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(1100 * var(--res));
@@ -84,12 +84,14 @@ h1{
 }
 #pre-h1{
     font-family: "lato";
-    font-size: calc(80 * var(--res));
+    font-size: calc(100 * var(--res));
     color: #fff;
     margin-left: calc(50 * var(--res));
     font-weight: lighter;
 }
 /* END HEADER */
+
+/* Sart section A*/
 #montre-secta{
     height: 100%;
     width: 100%;
@@ -113,9 +115,31 @@ h1{
     color: #fff;
     font-family: "roboto";
     text-align: center;
-    font-size: calc(25* var(--res));
+    font-size: calc(30* var(--res));
 
 }
+/*End section A*/
+
+/*Start section B*/
+
+#h2-sectb{
+    font-family: "lato";
+    font-size: calc(100*var(--res));
+    font-weight: lighter;
+}
+#pre-sectb{
+    font-family: "roboto";
+    font-size: calc(40*var(--res));
+}
+#sectb{
+    text-align: center;
+    margin-top: calc(200*var(--res));
+}
+#div-sectb{
+    width: 100%;
+}
+
+/*End section B*/
 
 /*
 Start footer

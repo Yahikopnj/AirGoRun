@@ -1,11 +1,11 @@
 @font-face {
     font-family: "roboto";
-    src: url("./static/font/Roboto/Roboto-Regular.ttf")format(truetype);
+    src: url("../../font/Roboto/Roboto-Regular.ttf")format(truetype);
 }
 
 @font-face {
     font-family: "lato";
-    src: url("./static/font/Lato/Lato-Light.ttf")format(truetype);
+    src: url("../../font/Lato/Lato-Light.ttf")format(truetype);
 }
 html{
     --res: calc(0.01 * 10vmin)
@@ -41,7 +41,6 @@ body{
     list-style: none;
     color: #ffff;
     letter-spacing: 4px;
-
 }
 #div-logo{
     display: flex;
@@ -72,10 +71,10 @@ border-color: #fff;
 }
 
 #img-header{
-    background-image: url(./static/image/img.header.png);
+    background-image: url(../../image/header.casque.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(800 * var(--res));
+    height: calc(1100 * var(--res));
     display: flex;
     justify-content: start;
     align-items: end;
@@ -85,118 +84,60 @@ h1{
 }
 #pre-h1{
     font-family: "lato";
-    font-size: calc(100 * var(--res));
+    font-size: calc(80 * var(--res));
     color: #fff;
     margin-left: calc(50 * var(--res));
     font-weight: lighter;
 }
 /* END HEADER */
-
-#div-lefta{
-    width: 60%;
-}
-#div-righta{
-    background-color: #2F243A;
+#lefta{
     width: 100%;
+}
+#righta{
+    background-color: #2F243A;
+    color: #fff;
+    font-family: "roboto";
+    text-align: center;
+    font-size: calc(35* var(--res));
+    width: 100%;
+
 }
 #secta{
     display: flex;
-    width: 100%;
 }
-#h2a{
-    text-align: center;
-    font-family: "lato";
-    font-size: calc(70 * var(--res));
-    color:#fff;
-    margin-top: calc(250 * var(--res));
-    font-weight: lighter;
-}
-#prea{
-    text-align: center;
-    font-size: calc(35 * var(--res));
+#preA{
+    color: #fff;
     font-family: "roboto";
-    color:#fff;
-    margin-top: calc(150 * var(--res));
-    margin-bottom: 0;
+    text-align: center;
+    font-size: calc(25* var(--res));
+
 }
-#watcha{
+#casque{
     height: 100%;
-    width: 100%;
-}
-
-#sectb{
-    display: flex;
-    width: 100%;
-    margin-top: calc(200 * var(--res));
-}
-#div-rightb{
-    display: flex;
-    justify-content: end ;
-    width: 100%;
-}
-#div-leftb{
-    width: 100%;
-
-}
-
-#h2b{
-    
-        text-align: center;
-        font-family: "lato";
-        font-size: calc(80 * var(--res));
-        color:#000;
-        margin-top: calc(250 * var(--res));
-        font-weight: lighter;
-
-
-}
-#preb{
-    text-align: center;
-    font-size: calc(35 * var(--res));
-    font-family: "roboto";
-    color:#000;
-    margin-top: calc(150 * var(--res));
-    margin-bottom: 0;
-
-}
-#img-size{
-width: 70%;
-height: 100%;
 }
 
 
-#sectc{
-display: flex;
-margin-top: calc(250 * var(--res));
+/*Start section B*/
 
-}
-
-#h2c{
-    text-align: center;
+#h2-sectb{
     font-family: "lato";
-    font-size: calc(70 * var(--res));
-    color:#000;
-    /* margin-top: calc(250 * var(--res)); */
+    font-size: calc(100*var(--res));
     font-weight: lighter;
 }
-
-#prec{
-    text-align: center;
-    font-size: calc(35 * var(--res));
+#pre-sectb{
     font-family: "roboto";
-    color:#000;
-    margin-top: calc(150 * var(--res));
-    margin-bottom: 0;
+    font-size: calc(40*var(--res));
+    margin: 0;
 }
-#div-leftc{
-width: 70%;
+#sectb{
+    text-align: center;
+    margin-top: calc(200*var(--res));
 }
-#rightc{
+#div-sectb{
     width: 100%;
 }
-#img-sizec{
-    width: 100%;
-}
+
+/*End section B*/
 /*
 Start footer
 */
@@ -239,3 +180,4 @@ text-align: right;
     margin-top: calc(25 * var(--res));
     margin-right: calc(40 * var(--res));
 }
+/* end footer*/
