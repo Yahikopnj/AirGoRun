@@ -53,13 +53,18 @@ body{
     align-items: center; 
 }
 #icn-user{
-    margin:calc(5 * var(--res))
+    margin:calc(5 * var(--res));
+    height: calc(10*var(--res));
+}
+#icn-panier{
+    height: calc(10*var(--res));
 }
 #search{
     border-radius: 2.5rem;
     border-color: #000;
     padding: calc(10 * var(--res));
-    width: calc(200 * var(--res));
+    width: calc(300 * var(--res));
+    height: 35px;
 }
 input::placeholder{
     color: #9070A3;
