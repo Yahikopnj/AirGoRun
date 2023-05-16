@@ -71,10 +71,10 @@ border-color: #fff;
 }
 
 #img-header{
-    background-image: url(../../image/header.casque.png);
+    background-image: url(../../image/testaa.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(1100 * var(--res));
+    height: calc(1200 * var(--res));
     display: flex;
     justify-content: start;
     align-items: end;
@@ -111,8 +111,9 @@ h1{
     text-align: center;
     font-size: calc(25* var(--res));
 }
-#casque{
+#brassard{
     height: 100%;
+    width: 100%;
 }
 
 

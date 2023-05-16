@@ -69,77 +69,33 @@ input::placeholder{
 border-bottom-style: solid;
 border-color: #fff;
 }
-
-#img-header{
-    background-image: url(../../image/header.casque.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: calc(1100 * var(--res));
-    display: flex;
-    justify-content: start;
-    align-items: end;
+input{
+border-radius: 50px;
+border-color: #9070A3;
+width: 200px;
+color:#9070A3;
+padding: 5px;
+font-family: "roboto";
 }
-h1{
-    margin:0;
-}
-#pre-h1{
-    font-family: "lato";
-    font-size: calc(80 * var(--res));
-    color: #fff;
-    margin-left: calc(50 * var(--res));
-    font-weight: lighter;
-}
-/* END HEADER */
-#lefta{
-    width: 100%;
-}
-#righta{
-    background-color: #2F243A;
-    color: #fff;
-    font-family: "roboto";
-    text-align: center;
-    font-size: calc(35* var(--res));
-    width: 100%;
+#form-register{
+text-align: center;
+width: 100%;
 
 }
-#secta{
-    display: flex;
+.divForm{
+display: flex;
+flex-direction: column;
+color: #9070A3;
+font-family: "roboto";
+margin: 20px;
 }
-#preA{
-    color: #fff;
-    font-family: "roboto";
-    text-align: center;
-    font-size: calc(25* var(--res));
+#form-cont{
+display: flex;
+align-items: center;
+flex-direction: column;
 }
-#casque{
-    height: 100%;
-}
+/*Start footer*/
 
-
-/*Start section B*/
-
-#h2-sectb{
-    font-family: "lato";
-    font-size: calc(100*var(--res));
-    font-weight: lighter;
-}
-#pre-sectb{
-    font-family: "roboto";
-    font-size: calc(40*var(--res));
-    margin: 0;
-}
-#sectb{
-    text-align: center;
-    margin-top: calc(200*var(--res));
-}
-#div-sectb{
-    width: 100%;
-}
-
-/*End section B*/
-/*
-Start footer
-*/
 #footer_home{
     display: flex;
     background-color:#444054 ;
