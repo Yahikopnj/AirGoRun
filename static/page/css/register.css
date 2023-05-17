@@ -104,6 +104,7 @@ label{
     border-color: #fff;
     margin-bottom: 50px;
     font-size: calc(20*var(--res));
+    cursor: pointer;
 }
 #form-register{
 text-align: center;
