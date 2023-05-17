@@ -18,3 +18,11 @@ document.getElementById("resp").addEventListener("click", ()=>{
 
     
 })
+document.getElementById("btn-voir-plus").addEventListener("click", ()=>{
+    var text = document.getElementById("prea-span");
+    if(window.getComputedStyle(text).display == "none"){
+        text.style.display = "block";
+    }else{
+        text.style.display = "none";
+    }
+})
